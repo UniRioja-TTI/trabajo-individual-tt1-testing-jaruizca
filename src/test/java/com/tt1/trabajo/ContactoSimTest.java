@@ -16,7 +16,8 @@ class ContactoSimTest {
 
     @BeforeEach
     void setup() {
-        ics = new ContactoSim();
+        int seed = 549015;
+        ics = new ContactoSim(seed);
     }
 
     @Test
